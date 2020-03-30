@@ -1,0 +1,9 @@
+= Eventuate Development dashboard
+
+Github pages based website.
+
+Use `git worktree` to map `gh-pages` branch to the `public` directory. See `init-worktree.sh`.
+
+Run `./generate-dashboard.sh` to generate the dashboard.
+
+Run `push-public.sh` to push the changes to `gh-pages`.

@@ -1,0 +1,61 @@
+<html>
+
+<h1>Eventuate development status</h1>
+
+<table>
+  <tr>
+    <th>
+      Project
+    </th>
+    <th>
+      master
+    </th>
+    <th>
+      -
+    </th>
+    <th>
+      development
+    </th>
+  </tr>
+
+{% for project in projects %}
+
+  {% if project.path is defined %}
+    {% set projectPath = project.path %}
+  {% else %}
+    {% set projectPath = project %}
+  {% endif %}
+
+  <tr>
+    <td>
+      <a href="https://github.com/{{ projectPath }}">{{ projectPath }}</a>
+    </td>
+    <td>
+      <a href="https://circleci.com/gh/{{ projectPath }}"><img src="https://circleci.com/gh/{{ projectPath }}.svg?style=svg"></a>
+    </td>
+    <td>
+      <a href="https://github.com/{{ projectPath }}/pulls"><img src="https://img.shields.io/github/issues-pr/{{ projectPath }}"></a>
+    </td>
+
+    {% if project.development is defined %}
+
+    <td>
+      <a href="https://circleci.com/gh/{{ projectPath }}/tree/development"><img src="https://circleci.com/gh/{{ projectPath }}/tree/development.svg?style=svg"></a>
+    </td>
+
+    {% else %}
+
+    <td>
+      -
+    </td>
+    <td>
+      -
+    </td>
+
+    {% endif %}
+  </tr>
+{% endfor %}
+
+</table>
+
+</html>
