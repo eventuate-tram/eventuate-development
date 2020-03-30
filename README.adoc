@@ -1,6 +1,6 @@
 = Eventuate Development dashboard
 
-Github pages based website.
+Github pages based https://eventuate-tram.github.io/eventuate-development/[website].
 
 Use `git worktree` to map `gh-pages` branch to the `public` directory. See `init-worktree.sh`.
 
