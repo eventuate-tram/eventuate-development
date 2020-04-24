@@ -37,8 +37,6 @@ projects:
     development: true
   - path: eventuate-tram/eventuate-tram-core-micronaut-examples-basic
     development: true
-  - path: eventuate-tram/eventuate-tram-examples-customers-and-orders
-    development: true
   - path: eventuate-tram/eventuate-tram-examples-customers-and-orders-redis
     development: true
   - path: eventuate-tram/eventuate-tram-examples-java-spring-todo-list
