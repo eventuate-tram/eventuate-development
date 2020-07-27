@@ -4,6 +4,14 @@ Github pages based https://eventuate-tram.github.io/eventuate-development/[websi
 
 Use `git worktree` to map `gh-pages` branch to the `public` directory. See `init-worktree.sh`.
 
-Run `./generate-dashboard.sh` to generate the dashboard.
+To generate the dashboard run:
 
-Run `push-public.sh` to push the changes to `gh-pages`.
+----
+./generate-dashboard.sh
+----
+
+Push the changes to `gh-pages` run:
+
+----
+push-public.sh
+----
