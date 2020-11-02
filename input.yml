@@ -12,6 +12,7 @@ projects:
   - eventuate-tram/eventuate-tram-sagas
   - eventuate-tram/eventuate-tram-docs
   - eventuate-tram/eventuate-tram-messaging-http
+  - eventuate-tram/eventuate-tram-view-support
   - eventuate-platform/eventuate-platform-dependencies
   - eventuate-tram/start.eventuate.io
   - eventuate-clients/eventuate-client-nodejs
