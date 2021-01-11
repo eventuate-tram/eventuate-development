@@ -13,9 +13,13 @@
     <th>
       -
     </th>
-    <th>
-      development
-    </th>
+
+    {% for branch in branches %}
+      <th>
+        {{ branch }}
+      </th>
+    {% endfor %}
+
   </tr>
 
 {% for project in projects %}
@@ -37,22 +41,24 @@
       <a target="_blank" href="https://github.com/{{ projectPath }}/pulls"><img src="https://img.shields.io/github/issues-pr/{{ projectPath }}"></a>
     </td>
 
-    {% if project.development is defined %}
+    {% for branch in branches %}
 
-    <td>
-      <a target="_blank" href="https://circleci.com/gh/{{ projectPath }}/tree/development"><img src="https://circleci.com/gh/{{ projectPath }}/tree/development.svg?style=svg"></a>
-    </td>
+      {% if project[branch] is defined %}
 
-    {% else %}
+      <td>
+        <a target="_blank" href="https://circleci.com/gh/{{ projectPath }}/tree/{{branch}}"><img src="https://circleci.com/gh/{{ projectPath }}/tree/{{branch}}.svg?style=svg"></a>
+      </td>
 
-    <td>
-      -
-    </td>
-    <td>
-      -
-    </td>
+      {% else %}
 
-    {% endif %}
+      <td>
+        -
+      </td>
+
+      {% endif %}
+
+    {% endfor %}
+
   </tr>
 {% endfor %}
 

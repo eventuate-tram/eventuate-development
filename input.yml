@@ -1,46 +1,33 @@
 projects:
-  - eventuate-clients/eventuate-util
-  - eventuate-foundation/eventuate-common
-  - eventuate-foundation/eventuate-common-messaging
-  - eventuate-foundation/eventuate-messaging-activemq
-  - eventuate-foundation/eventuate-messaging-kafka
-  - eventuate-foundation/eventuate-messaging-rabbitmq
-  - eventuate-foundation/eventuate-messaging-redis
-  - eventuate-foundation/eventuate-cdc
-  - eventuate-tram/eventuate-tram-core
-  - eventuate-local/eventuate-local
-  - eventuate-tram/eventuate-tram-sagas
-  - eventuate-tram/eventuate-tram-docs
-  - eventuate-tram/eventuate-tram-messaging-http
-  - eventuate-tram/eventuate-tram-view-support
-  - eventuate-platform/eventuate-platform-dependencies
-  - eventuate-tram/start.eventuate.io
-  - eventuate-clients/eventuate-client-nodejs
-  - eventuate-tram/eventuate-tram-core-nodejs
-  - eventuate-tram/eventuate-tram-upgrade-scripts
+  - path: eventuate-clients/eventuate-util
+  - path: eventuate-foundation/eventuate-common
+  - path: eventuate-foundation/eventuate-common-messaging
+  - path: eventuate-foundation/eventuate-messaging-activemq
+  - path: eventuate-foundation/eventuate-messaging-kafka
+  - path: eventuate-foundation/eventuate-messaging-rabbitmq
+  - path: eventuate-foundation/eventuate-messaging-redis
+  - path: eventuate-foundation/eventuate-cdc
+  - path: eventuate-tram/eventuate-tram-core
+  - path: eventuate-local/eventuate-local
+  - path: eventuate-tram/eventuate-tram-sagas
+  - path: eventuate-tram/eventuate-tram-docs
+  - path: eventuate-tram/eventuate-tram-messaging-http
+  - path: eventuate-tram/eventuate-tram-view-support
+  - path: eventuate-platform/eventuate-platform-dependencies
+  - path: eventuate-tram/start.eventuate.io
+  - path: eventuate-clients/eventuate-client-nodejs
+  - path: eventuate-tram/eventuate-tram-core-nodejs
+  - path: eventuate-tram/eventuate-tram-upgrade-scripts
   - path: eventuate-tram/eventuate-tram-core-examples-basic
-    development: true
   - path: eventuate-tram/eventuate-tram-examples-customers-and-orders
-    development: true
-  - path: eventuate-examples/eventuate-examples-java-customers-and-orders
-    development: true
-  - path: eventuate-examples/eventuate-examples-java-spring-todo-list
-    development: true
-  - path: eventuate-examples/eventuate-micronaut-examples-customers-and-orders
-    development: true
-  - path: eventuate-tram-examples/eventuate-tram-examples-nodejs-customers-and-orders
-    development: true
-  - path: eventuate-tram-examples/eventuate-tram-examples-micronaut-customers-and-orders
-    development: true
-  - path: eventuate-tram-examples/eventuate-tram-sagas-micronaut-examples-customers-and-orders
-    development: true
-  - path: eventuate-tram/eventuate-tram-core-examples-basic
-    development: true
-  - path: eventuate-tram/eventuate-tram-core-micronaut-examples-basic
-    development: true
-  - path: eventuate-tram/eventuate-tram-examples-customers-and-orders-redis
-    development: true
-  - path: eventuate-tram/eventuate-tram-examples-java-spring-todo-list
-    development: true
   - path: eventuate-tram/eventuate-tram-sagas-examples-customers-and-orders
-    development: true
+  - path: eventuate-examples/eventuate-examples-java-customers-and-orders
+  - path: eventuate-examples/eventuate-examples-java-spring-todo-list
+  - path: eventuate-examples/eventuate-micronaut-examples-customers-and-orders
+  - path: eventuate-tram-examples/eventuate-tram-examples-nodejs-customers-and-orders
+  - path: eventuate-tram-examples/eventuate-tram-examples-micronaut-customers-and-orders
+  - path: eventuate-tram-examples/eventuate-tram-sagas-micronaut-examples-customers-and-orders
+  - path: eventuate-tram/eventuate-tram-core-examples-basic
+  - path: eventuate-tram/eventuate-tram-core-micronaut-examples-basic
+  - path: eventuate-tram/eventuate-tram-examples-customers-and-orders-redis
+  - path: eventuate-tram/eventuate-tram-examples-java-spring-todo-list
