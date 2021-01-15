@@ -1,13 +1,16 @@
 projects:
   - path: eventuate-clients/eventuate-util
   - path: eventuate-foundation/eventuate-common
+  - path: eventuate-foundation/eventuate-common-quarkus
   - path: eventuate-foundation/eventuate-common-messaging
   - path: eventuate-foundation/eventuate-messaging-activemq
   - path: eventuate-foundation/eventuate-messaging-kafka
+  - path: eventuate-foundation/eventuate-messaging-kafka-quarkus
   - path: eventuate-foundation/eventuate-messaging-rabbitmq
   - path: eventuate-foundation/eventuate-messaging-redis
   - path: eventuate-foundation/eventuate-cdc
   - path: eventuate-tram/eventuate-tram-core
+  - path: eventuate-tram/eventuate-tram-core-quarkus
   - path: eventuate-local/eventuate-local
   - path: eventuate-tram/eventuate-tram-sagas
   - path: eventuate-tram/eventuate-tram-docs
