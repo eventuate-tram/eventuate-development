@@ -12,6 +12,7 @@ projects:
   - path: eventuate-tram/eventuate-tram-core
   - path: eventuate-tram/eventuate-tram-core-quarkus
   - path: eventuate-local/eventuate-local
+  - path: eventuate-local/eventuate-local-quarkus
   - path: eventuate-tram/eventuate-tram-sagas
   - path: eventuate-tram/eventuate-tram-docs
   - path: eventuate-tram/eventuate-tram-messaging-http
@@ -21,9 +22,12 @@ projects:
   - path: eventuate-clients/eventuate-client-nodejs
   - path: eventuate-tram/eventuate-tram-core-nodejs
   - path: eventuate-tram/eventuate-tram-upgrade-scripts
+  - path: eventuate-examples/eventuate-examples-docker-images
   - path: eventuate-tram/eventuate-tram-core-examples-basic
   - path: eventuate-tram/eventuate-tram-examples-customers-and-orders
+  - path: eventuate-examples/eventuate-tram-examples-quarkus-customers-and-orders
   - path: eventuate-tram/eventuate-tram-sagas-examples-customers-and-orders
+  - path: eventuate-examples/eventuate-quarkus-examples-customers-and-orders
   - path: eventuate-examples/eventuate-examples-java-customers-and-orders
   - path: eventuate-examples/eventuate-examples-java-spring-todo-list
   - path: eventuate-examples/eventuate-micronaut-examples-customers-and-orders
