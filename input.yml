@@ -14,6 +14,7 @@ projects:
   - path: eventuate-local/eventuate-local
   - path: eventuate-local/eventuate-local-quarkus
   - path: eventuate-tram/eventuate-tram-sagas
+  - path: eventuate-tram/eventuate-tram-sagas-quarkus
   - path: eventuate-tram/eventuate-tram-docs
   - path: eventuate-tram/eventuate-tram-messaging-http
   - path: eventuate-tram/eventuate-tram-view-support
@@ -26,6 +27,7 @@ projects:
   - path: eventuate-tram/eventuate-tram-core-examples-basic
   - path: eventuate-tram/eventuate-tram-examples-customers-and-orders
   - path: eventuate-examples/eventuate-tram-examples-quarkus-customers-and-orders
+  - path: eventuate-examples/eventuate-tram-sagas-quarkus-examples-customers-and-orders
   - path: eventuate-tram/eventuate-tram-sagas-examples-customers-and-orders
   - path: eventuate-examples/eventuate-quarkus-examples-customers-and-orders
   - path: eventuate-examples/eventuate-examples-java-customers-and-orders
