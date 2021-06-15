@@ -38,6 +38,7 @@ projects:
   - path: eventuate-tram-examples/eventuate-tram-examples-micronaut-customers-and-orders
   - path: eventuate-tram-examples/eventuate-tram-sagas-micronaut-examples-customers-and-orders
   - path: eventuate-tram/eventuate-tram-core-examples-basic
+  - path: eventuate-examples/eventuate-tram-reactive-examples-customers-and-orders
   - path: eventuate-tram/eventuate-tram-core-micronaut-examples-basic
   - path: eventuate-tram/eventuate-tram-examples-customers-and-orders-redis
   - path: eventuate-tram/eventuate-tram-examples-java-spring-todo-list
