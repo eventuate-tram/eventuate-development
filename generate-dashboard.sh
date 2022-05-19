@@ -11,11 +11,12 @@ branches = ['development', 'wip-db-id-gen']
 
 def branch_exists(path, branch) :
   url = f"https://github.com/{path}/tree/{branch}"
+  print ("Checking ", url)
   r = requests.get(url)
   return r.status_code == 200
 
 with open("input.yml") as config:
-  config = yaml.load(config)
+  config = yaml.safe_load(config)
   projects = config['projects']
   config['branches'] = branches
   for project in projects :
