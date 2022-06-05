@@ -1,4 +1,5 @@
 projects:
+  - path: eventuate-foundation/eventuate-plugins-gradle
   - path: eventuate-clients/eventuate-util
   - path: eventuate-foundation/eventuate-common
   - path: eventuate-foundation/eventuate-common-quarkus
