@@ -19,7 +19,6 @@ projects:
   - path: eventuate-tram/eventuate-tram-docs
   - path: eventuate-tram/eventuate-tram-messaging-http
   - path: eventuate-tram/eventuate-tram-view-support
-  - path: eventuate-tram/eventuate-tram-messaging-http
   - path: eventuate-tram/eventuate-tram-spring-cloud-sleuth
   - path: eventuate-platform/eventuate-platform-dependencies
   - path: eventuate-tram/start.eventuate.io
