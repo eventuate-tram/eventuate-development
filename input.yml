@@ -21,6 +21,7 @@ projects:
   - path: eventuate-tram/eventuate-tram-view-support
   - path: eventuate-tram/eventuate-tram-spring-cloud-sleuth
   - path: eventuate-platform/eventuate-platform-dependencies
+  - path: microservice-canvas/microservice-canvas-tools
   - path: eventuate-tram/start.eventuate.io
   - path: eventuate-clients/eventuate-client-nodejs
   - path: eventuate-tram/eventuate-tram-core-nodejs
