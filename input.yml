@@ -46,3 +46,6 @@ projects:
   - path: eventuate-tram/eventuate-tram-core-micronaut-examples-basic
   - path: eventuate-tram/eventuate-tram-examples-customers-and-orders-redis
   - path: eventuate-tram/eventuate-tram-examples-java-spring-todo-list
+  - path: eventuate-examples/eventuate-examples-docker-images
+  - path: eventuate-platform/eventuate-tram-spring-testing-support-cloud-contract
+  - path: eventuate-platform/eventuate-tram-spring-wolf-support
