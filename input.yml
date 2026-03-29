@@ -49,3 +49,4 @@ projects:
   - path: eventuate-examples/eventuate-examples-docker-images
   - path: eventuate-platform/eventuate-tram-spring-testing-support-cloud-contract
   - path: eventuate-platform/eventuate-tram-spring-wolf-support
+  - path: eventuate-platform/eventuate-tram-spring-micrometer-tracing
