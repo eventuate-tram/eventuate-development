@@ -24,6 +24,7 @@ projects:
   - path: microservice-canvas/microservice-canvas-tools
   - path: eventuate-platform/eventuate-platform-testcontainer-support
   - path: eventuate-examples/eventuate-examples-common
+  - path: eventuate-examples/eventuate-examples-spring-authorization-server
   - path: eventuate-tram/start.eventuate.io
   - path: eventuate-clients/eventuate-client-nodejs
   - path: eventuate-tram/eventuate-tram-core-nodejs
